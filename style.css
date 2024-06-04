@@ -1,0 +1,162 @@
+
+/* Top */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: #1F2937;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    border-top: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.under {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px; /* Optional: add padding to the parent */
+}
+
+.signup-container, .image-container {
+    flex: 1;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.signup-container {
+    max-width: 600px;
+    padding-left: 20px; /* Add left padding */
+    margin-left: 100px;
+}
+
+.signup-container h3 {
+    font-size: 2rem;
+    margin-bottom: 5px; /* Reduce margin-bottom */
+}
+
+.signup-container p {
+    font-size: 1rem;
+    margin-top: 5px; /* Reduce margin-top */
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 300px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container {
+    margin-right: 100px;
+}
+
+
+.signup-container button {
+    padding: 10px 20px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signup-container button:hover {
+    background-color: #3882F6;
+   
+}
+
+
+/* Fonts */
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.nav-links a {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.signup-container h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.signup-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Top */
+
+/* Middle 1 */
+
+.middle-1 {
+    background-color: #F9FAF8;
+}
+
+.image-header {
+    display: flex;
+    justify-content: center;
+}
+
+.image-boxs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+.box {
+    text-align: center;
+    width: 150px;
+}
+
+.image {
+    width: 150px;
+    height: 180px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    margin: 0 auto 10px;
+}
+
+/* Font */
+
+.image-header h3 {
+   font-weight: bolder;
+   font-size: 36px; 
+   color: #1F2937;
+}
+
+/* Middle 1 */
+
+
+
+
