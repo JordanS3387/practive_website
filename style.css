@@ -192,6 +192,10 @@ html, body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 25px;
+    border-radius: 9px;
+    margin: 0 auto;
+    max-width: 950px;
 }
 
 
