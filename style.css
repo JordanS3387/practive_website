@@ -17,6 +17,7 @@ html, body {
     justify-content: space-around;
     margin-top: 0;
     border-top: 0;
+    padding-top: 10px;
 }
 
 .nav-links {
@@ -128,9 +129,8 @@ html, body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     gap: 20px;
 }
 
@@ -158,5 +158,98 @@ html, body {
 /* Middle 1 */
 
 
+/* Middle 2 */
+
+.middle-2 {
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.credit {
+    text-align: right;
+}
+
+/* Font */
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.credit {
+    font-weight: bold;
+}
+
+/* Bottom */
+
+.bottom {
+    padding: 100px;
+}
+
+.action-signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
 
+.action, .sign-up {
+    flex: 1;
+}
+
+.action {
+    margin-left: 100px;
+    max-width: 600px;
+}
+
+.sign-up{
+    margin-right: 100px;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+/* Font */
+
+.bottom {
+    background-color: #F9FAF8;
+}
+
+.action-signup {
+    background-color: #3882F6;
+}
+
+.action {
+    color: #F9FAF8;
+}
+
+.sign-up button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid;
+    border-color: #F9FAF8;
+}
+
+/* Bottom */
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Font */
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
